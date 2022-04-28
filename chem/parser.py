@@ -110,9 +110,6 @@ def get_parser():
     parser.add_argument('--dist_metric', default='norm_cosine', type=str,
                         help='distance metric for optimal transport as cost matrix (cosine, norm_cosine)')
 
-    ## for fgtot
-    parser.add_argument('--Lambda', default=0.5, type=float,
-                        help='Lambda * C + (1 - Lambda) * C_xy, it is the coefficient that we use to trade off node_cost matrix and GWD cost matrix')
 
 
     args = parser.parse_args()

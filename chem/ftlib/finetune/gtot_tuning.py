@@ -18,7 +18,6 @@ class GTOTRegularization(nn.Module):
         super(GTOTRegularization, self).__init__()
         self.Gtot = GTOT(eps=0.1, thresh=0.1, max_iter=100, reduction=None)
 
-        self.Lambda = args.Lambda
         self.args = args
         self.order = order
         self.M = 0.05
