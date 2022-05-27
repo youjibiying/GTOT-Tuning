@@ -420,7 +420,7 @@ def main(args):
 
     ## one of baseline methods: StochNorm
     if args.norm_type == 'stochnorm':
-        print('coverting model with strochnorm')
+        print('converting model with strochnorm')
         model = convert_model(model, p=args.prob)
         source_model = convert_model(source_model, p=args.prob)
 
@@ -449,7 +449,7 @@ def main(args):
     source_getter = IntermediateLayerGetter(source_model, return_layers=return_layers)
     target_getter = IntermediateLayerGetter(model, return_layers=return_layers)
 
-    # get regularization for  finetune
+    # get regularization for finetune
     weights_regularization = FrobeniusRegularization(source_model.gnn, model.gnn)
     backbone_regularization = lambda x: x
     bss_regularization = lambda x: x

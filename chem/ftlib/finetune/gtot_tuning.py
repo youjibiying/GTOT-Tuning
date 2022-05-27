@@ -5,7 +5,6 @@ from ftlib.finetune.gtot import GTOT
 
 
 
-
 class GTOTRegularization(nn.Module):
     r"""
        GTOT regularization for finetuning
@@ -51,9 +50,7 @@ class GTOTRegularization(nn.Module):
         else:
             cos_dist = cos_distance
 
-
             self.sensible_normalize(cos_dist, mask=mask)
-
 
 
         # use different A^{order} as mask matrix
@@ -119,4 +116,3 @@ class GTOTRegularization(nn.Module):
             output = output + torch.sum(distance)
 
         return output
-

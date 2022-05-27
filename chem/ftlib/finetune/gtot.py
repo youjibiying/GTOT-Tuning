@@ -7,6 +7,7 @@ import torch.nn as nn
 # Adapted from https://github.com/gpeyre/SinkhornAutoDiff/blob/master/sinkhorn_pointcloud.py
 class GTOT(nn.Module):
     r"""
+        GTOT implementation.
     """
 
     def __init__(self, eps=0.1, thresh=0.1, max_iter=100, reduction='none'):
