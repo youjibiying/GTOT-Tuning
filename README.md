@@ -50,7 +50,7 @@ tensorboardx              2.1
 ## Dataset download
 All the necessary data files can be downloaded from the following links.
 
-For the chemistry dataset, download from [chem data](http://snap.stanford.edu/gnn-pretrain/data/chem_dataset.zip) (2.5GB), unzip it, and put it under `chem/dataset`.
+For the chemistry dataset, download from [http://snap.stanford.edu/gnn-pretrain/data/chem_dataset.zip](http://snap.stanford.edu/gnn-pretrain/data/chem_dataset.zip) (2.5GB), unzip it, and put it under `chem/dataset`.
 
 
 ## Train and test
