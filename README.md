@@ -7,21 +7,28 @@ IJCAI22-[Fine-Tuning Graph Neural Networks via Graph Topology induced Optimal Tr
 
 If you make use of the code/experiment in your work, please cite our paper (Bibtex below).
 ```
-@article{zhang2022fine,
-  title={Fine-tuning graph neural networks via graph topology induced optimal transport},
-  author={Zhang, Jiying and Xiao, Xi and Huang, Long-Kai and Rong, Yu and Bian, Yatao},
-  journal={arXiv preprint arXiv:2203.10453},
-  year={2022}
+@inproceedings{ijcai2022p518,
+  title     = {Fine-Tuning Graph Neural Networks via Graph Topology Induced Optimal Transport},
+  author    = {Zhang, Jiying and Xiao, Xi and Huang, Long-Kai and Rong, Yu and Bian, Yatao},
+  booktitle = {Proceedings of the Thirty-First International Joint Conference on
+               Artificial Intelligence, {IJCAI-22}},
+  publisher = {International Joint Conferences on Artificial Intelligence Organization},
+  editor    = {Lud De Raedt},
+  pages     = {3730--3736},
+  year      = {2022},
+  month     = {7},
+  note      = {Main Track},
+  doi       = {10.24963/ijcai.2022/518},
+  url       = {https://doi.org/10.24963/ijcai.2022/518},
 }
 ```
 <!--
 or
 ```
-@inproceedings{zhang2022fine,
+@article{zhang2022fine,
   title={Fine-tuning graph neural networks via graph topology induced optimal transport},
   author={Zhang, Jiying and Xiao, Xi and Huang, Long-Kai and Rong, Yu and Bian, Yatao},
-  booktitle={the 31st International Joint Conference on Artificial Intelligence and the 25th European Conference on Artificial Intelligence (IJCAI-ECAI 22)},
-  page={}
+  journal={arXiv preprint arXiv:2203.10453},
   year={2022}
 }
 ```
